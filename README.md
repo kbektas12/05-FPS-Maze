@@ -5,7 +5,7 @@ Comes with an enemy, original music, level, input mapping, sounds
 
 ## Implementation
 Comes with an enemy, original music, level, input mapping, sounds 
-maze, weapon, bullet animation, decal. 
+maze, weapon, bullet animation, decal, csg mesh walls.
 
 ## References
 project demonstration videos by Professor Francis
