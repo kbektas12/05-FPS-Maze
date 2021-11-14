@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/blasterJ.obj-163e33f10a34e7b9a934317a5a41f58d.mesh"
+
+[deps]
+
+files=[ "res://.import/blasterJ.obj-163e33f10a34e7b9a934317a5a41f58d.mesh" ]
+
+source_file="res://Assets/blaster/Models/OBJ format/blasterJ.obj"
+dest_files=[ "res://.import/blasterJ.obj-163e33f10a34e7b9a934317a5a41f58d.mesh", "res://.import/blasterJ.obj-163e33f10a34e7b9a934317a5a41f58d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

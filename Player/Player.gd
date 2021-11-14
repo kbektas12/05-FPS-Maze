@@ -9,6 +9,10 @@ var mouse_range = 1.2
 
 var velocity = Vector3()
 
+onready var rc = $Pivot/RayCast 
+onready var flash = $Pivot/Blaster/Flash
+
+
 func get_input():
 	var input_dir = Vector3()
 	if Input.is_action_pressed("forward"):
@@ -35,3 +39,10 @@ func _physics_process(delta):
 	velocity.x = desired_velocity.x
 	velocity.z = desired_velocity.z
 	velocity = move_and_slide(velocity, Vector3.UP, true)
+	
+	if Input.is_action_pressed("shoot") and !flash.visible:
+		flash.shoot()
+		if rc.is_colliding():
+			var c  = rc.get_collider()
+			if c.is_in_group("Enemy"):
+				c.queue_free()
